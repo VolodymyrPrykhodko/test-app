@@ -63,7 +63,6 @@ const ConnectAnotherStore: React.FC<any> = ({ shop }) => {
     const [state, dispatch] = useReducer(reducer, initialValue);
 
     useEffect(() => {
-        console.log(shop)
         localStorage.setItem('step', JSON.stringify(shop));
         dispatch({ type: ConnectAnotherActions.SET_STEP, payload: JSON.parse(localStorage.getItem('step') || '') })
     }, []);

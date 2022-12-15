@@ -11,11 +11,11 @@ import { AppRoutes } from './types';
 import { useEffect } from 'react';
 
 function App() {
-  const [activeStep, setActiveStep] = useState(JSON.parse(localStorage.getItem('step') || '') || 0);
+  const [activeStep, setActiveStep] = useState(JSON.parse(localStorage.getItem('step') || '0'));
   const location = useLocation();
 
   useEffect(() => {
-    setActiveStep(JSON.parse(localStorage.getItem('step') || ''));
+    setActiveStep(JSON.parse(localStorage.getItem('step') || '0'));
   }, [location]);
 
   return (
