@@ -1,0 +1,101 @@
+.login-column-form {
+    margin: auto;
+
+    .login-form-component {
+        grid-template-columns: 1fr;
+        width: 30rem;
+        margin: auto;
+        padding: 4rem 3rem;
+        box-shadow: 0px 5px 20px rgba(108, 117, 139, 0.2);
+        border-radius: 8px;
+
+        .login-header {
+
+            .login-header-logo {
+                display: flex;
+                align-items: center;
+                margin-bottom: 24px;
+
+                h3 {
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+
+            .login-header-text {
+                h3 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .login-password {
+            border: 1px solid #ced4da;
+            margin: 24px 0;
+            border-radius: 4px;
+
+            label {
+                left: -14px;
+                top: -16px;
+            }
+
+            .login-password-input {
+                margin-top: 0;
+                border-radius: 12px;
+
+                .login-input-toggle {
+                    margin: 0;
+
+                    button {
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+
+                input {
+                    padding: 10px 12px;
+                    border-radius: 4px;
+                    background-color: #fcfcfb;
+                }
+
+                &:hover &::before {
+                    border-bottom: none;
+                }
+
+                &:before {
+                    border-bottom: none;
+                }
+
+                &:after {
+                    border-bottom: none;
+                }
+            }
+        }
+
+        .login-btn {
+            text-transform: none;
+            box-shadow: none;
+        }
+
+        .authorization-login {
+            text-align: center;
+        }
+
+        .authorization-option-login {
+            cursor: pointer;
+            color: #1976d2;
+        }
+    }
+}
+
+.login-dialog {
+    div[role="presentation"] {
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,170 @@
+.connect-container {
+    grid-template-columns: 1fr;
+    width: 30rem;
+    margin: auto;
+    padding: 4rem 3rem;
+    box-shadow: 0px 5px 20px rgba(108, 117, 139, 0.2);
+    border-radius: 8px;
+
+    .connected-logo {
+        position: relative;
+        margin-bottom: 32px;
+        text-align: center;
+
+        svg {
+            position: absolute;
+            right: 153px;
+            background-color: #fff;
+            color: #65BD47;
+            border-radius: 50%;
+        }
+    }
+
+    .connected-header {
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .connected-text {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .connect-header-logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    .connect-header {
+        margin-bottom: 32px;
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .connect-text {
+        display: flex;
+        margin-bottom: 16px;
+
+        svg {
+            color: #65BD47;
+            margin-right: 15px;
+        }
+
+        .connect-text-header {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        div {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .connect-dropdown-container {
+        .connect-dropdown-header {
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+
+        .connect-dropdown {
+            width: 100%;
+            height: 46px;
+        }
+    }
+
+    .connect-btn {
+        display: block;
+        margin: 32px auto 16px;
+        text-transform: none;
+        width: 100%;
+        box-shadow: none;
+
+        &:hover {
+            box-shadow: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+            &:visited {
+                color: #fff;
+            }
+        }
+    }
+
+    .connect-google-container {
+        display: flex;
+        align-items: center;
+        margin: 32px auto 16px;
+
+        img {
+            padding: 15px;
+            border: 1px solid #5383EC;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .connect-btn {
+            border-radius: 0 2px 2px 0;
+            margin: 0;
+            background-color: #5383EC;
+            padding: 17px;
+            line-height: 1rem;
+        }
+    }
+
+    .connect-no-use {
+        text-align: center;
+        font-size: 12px;
+        color: #4F637D;
+
+        a {
+            text-decoration: none;
+
+            &:visited {
+                color: #4F637D;
+            }
+        }
+
+        .another-store {
+            color: #32ABF2;
+
+            &:visited {
+                color: #32ABF2;
+            }
+        }
+    }
+}
+
+.connect-container.received {
+    text-align: center;
+
+    .connect-success {
+        width: 100px;
+        height: 100px;
+        color: #65BD47;
+    }
+}
+
+.connected-dialog {
+    div[role="presentation"] {
+        align-items: flex-start;
+    }
+}
