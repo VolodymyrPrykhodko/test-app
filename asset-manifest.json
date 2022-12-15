@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/test-app/static/css/main.c8e9256b.css",
-    "main.js": "/test-app/static/js/main.0f693394.js",
+    "main.css": "/test-app/static/css/main.2b876718.css",
+    "main.js": "/test-app/static/js/main.a6688778.js",
     "static/media/RaccoonImage.svg": "/test-app/static/media/RaccoonImage.2969765589956501d6c397960f9afc5b.svg",
     "static/media/ChadLogo.svg": "/test-app/static/media/ChadLogo.b8397cd61c3d9e3f18d58c5ff997acf2.svg",
     "static/media/GoogleIcon.svg": "/test-app/static/media/GoogleIcon.7cbc316b5f1eed83e99545dae783f900.svg",
     "index.html": "/test-app/index.html",
-    "main.c8e9256b.css.map": "/test-app/static/css/main.c8e9256b.css.map",
-    "main.0f693394.js.map": "/test-app/static/js/main.0f693394.js.map"
+    "main.2b876718.css.map": "/test-app/static/css/main.2b876718.css.map",
+    "main.a6688778.js.map": "/test-app/static/js/main.a6688778.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8e9256b.css",
-    "static/js/main.0f693394.js"
+    "static/css/main.2b876718.css",
+    "static/js/main.a6688778.js"
   ]
 }
